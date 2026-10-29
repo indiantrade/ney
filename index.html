@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
         
         body {
             font-family: 'Outfit', sans-serif;
@@ -16,7 +16,7 @@
         }
 
         .cyber-bg {
-            background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.15) 0%, rgba(5, 8, 17, 1) 70%);
+            background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.18) 0%, rgba(5, 8, 17, 1) 75%);
         }
 
         .gold-text {
@@ -25,16 +25,12 @@
             -webkit-text-fill-color: transparent;
         }
 
-        .gold-border {
-            border: 1px solid rgba(245, 158, 11, 0.3);
+        .glow-button-lg {
+            box-shadow: 0 0 35px rgba(16, 185, 129, 0.5), 0 0 10px rgba(16, 185, 129, 0.3) inset;
         }
 
-        .glow-button {
-            box-shadow: 0 0 30px rgba(16, 185, 129, 0.4);
-        }
-
-        .glow-button:hover {
-            box-shadow: 0 0 45px rgba(16, 185, 129, 0.6);
+        .glow-button-lg:hover {
+            box-shadow: 0 0 50px rgba(16, 185, 129, 0.75), 0 0 15px rgba(16, 185, 129, 0.5) inset;
         }
 
         .glass-panel {
@@ -69,9 +65,9 @@
             <img src="https://iili.io/n8W036x.jpg" alt="Navjot Brar(Official" class="relative w-28 h-28 md:w-32 md:h-32 rounded-full border-2 border-amber-400 object-cover shadow-2xl">
         </div>
 
-        <!-- High Impact Copywriting Header -->
+        <!-- Headline & Value Proposition -->
         <div class="text-center space-y-4 mb-8">
-            <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs text-amber-400 font-medium">
+            <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-xs text-amber-400 font-medium">
                 <i class="fa-solid fa-gem text-amber-400"></i>
                 <span>Master The Market Trends</span>
             </div>
@@ -85,14 +81,14 @@
             </p>
         </div>
 
-        <!-- STRICT SINGLE CTA BUTTON -->
-        <div class="w-full max-w-md my-4 flex flex-col items-center">
-            <a href="https://t.me/+y4p0KtbVcbY0NDE1" target="_blank" rel="noopener noreferrer" class="w-full group relative inline-flex items-center justify-center px-8 py-4.5 text-base md:text-lg font-bold text-slate-950 transition-all duration-300 bg-gradient-to-r from-emerald-400 via-teal-400 to-emerald-500 rounded-2xl glow-button transform hover:-translate-y-1">
-                <i class="fa-brands fa-telegram text-2xl mr-3 group-hover:scale-110 transition-transform text-slate-950"></i>
-                <span class="tracking-wide uppercase font-extrabold">JOIN TELEGRAM CHANNEL NOW</span>
+        <!-- STRICT SINGLE EXTRA LARGE CTA BUTTON -->
+        <div class="w-full max-w-lg my-6 flex flex-col items-center px-2">
+            <a href="https://t.me/+y4p0KtbVcbY0NDE1" target="_blank" rel="noopener noreferrer" class="w-full group relative inline-flex items-center justify-center py-5 px-8 text-lg md:text-xl font-black text-slate-950 transition-all duration-300 bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-400 rounded-2xl glow-button-lg transform hover:scale-[1.02] active:scale-[0.98]">
+                <i class="fa-brands fa-telegram text-3xl mr-3.5 group-hover:scale-110 transition-transform text-slate-950"></i>
+                <span class="tracking-wider uppercase font-black">JOIN TELEGRAM CHANNEL NOW</span>
             </a>
             
-            <div class="flex items-center justify-center space-x-4 text-xs text-slate-400 mt-3">
+            <div class="flex items-center justify-center space-x-4 text-xs md:text-sm text-slate-400 mt-4 font-medium">
                 <span class="flex items-center"><i class="fa-solid fa-lock text-emerald-400 mr-1.5"></i> 100% Free Access</span>
                 <span>•</span>
                 <span class="flex items-center"><i class="fa-solid fa-book-open text-amber-400 mr-1.5"></i> Pure Educational Focus</span>
@@ -194,5 +190,5 @@
     </footer>
 
 </body>
-  
+    
 </html>
